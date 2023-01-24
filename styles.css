@@ -39,10 +39,31 @@ ul {
     align-items: center;
 }
 
+li {
+    padding: 0.875rem 0.75rem;
+    font-size: .90rem;
+    letter-spacing: -.5px;
+}
+
 li:hover {
     text-decoration: underline;
 }
 
 .profile-icon {
     text-decoration: none !important;
+}
+
+.menu-icon {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+}
+
+.menu-icon:hover {
+    cursor: pointer;
+    background-color: rgba(100, 100, 100, 0.1);
+}
+
+.menu-btn {
+    width: 0.938rem;
 }
