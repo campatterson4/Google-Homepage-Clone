@@ -107,3 +107,21 @@ li:hover {
 .search-bar:focus {
     outline: none;
 }
+
+.search-icon {
+    position: absolute;
+    width: 0.938rem;
+    top: 0.938rem;
+    left: 0.938rem;
+}
+
+.voice-icon {
+    position: absolute;
+    width: 0.938rem;
+    top: 0.75rem;
+    left: 32.7rem;
+}
+
+form {
+    position: relative;
+}
