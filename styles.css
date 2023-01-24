@@ -141,3 +141,12 @@ button:hover {
     border: 1px solid #eee;
     box-shadow: 0 0 2px 1px rgba(189, 189, 189, 0.5);
 }
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 0.938rem;
+    margin: auto;
+    margin-top: 1.875rem;
+    width: 21.875rem;
+}
