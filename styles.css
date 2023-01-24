@@ -38,3 +38,11 @@ ul {
     display: flex;
     align-items: center;
 }
+
+li:hover {
+    text-decoration: underline;
+}
+
+.profile-icon {
+    text-decoration: none !important;
+}
