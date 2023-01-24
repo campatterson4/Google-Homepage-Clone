@@ -1,4 +1,8 @@
 /* ---- ALL ---- */
+:root {
+    --black: #424242;
+    --blue: #4285F4;
+}
 
 *,
 *::before,
@@ -27,5 +31,5 @@ nav {
 
 ul {
     display: flex;
-    
+
 }
