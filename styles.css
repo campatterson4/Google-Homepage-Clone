@@ -2,6 +2,7 @@
 :root {
     --black: #424242;
     --blue: #4285F4;
+    --grey: #d3d3d3;
 }
 
 *,
@@ -81,3 +82,20 @@ li:hover {
     color: #fff;
 }
 
+/* ---- MAIN SECTION ---- */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+}
+
+.search-bar {
+    height: 2.813rem;
+    width: 35rem;
+    border: 1px solid var(--grey);
+    border-radius: 2.813rem;
+    font-size: 1.2rem;
+    padding-left: 3.125rem;
+}
