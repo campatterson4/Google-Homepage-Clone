@@ -3,6 +3,7 @@
     --black: #424242;
     --blue: #4285F4;
     --grey: #d3d3d3;
+    --light-grey: #f0f0f0;
 }
 
 *,
@@ -98,6 +99,7 @@ li:hover {
     border-radius: 2.813rem;
     font-size: 1.2rem;
     padding-left: 3.125rem;
+    transition: 0.3s;
 }
 
 .search-bar:hover {
@@ -124,4 +126,18 @@ li:hover {
 
 form {
     position: relative;
+}
+
+button {
+    padding: 0.5rem 0.75rem;
+    cursor: pointer;
+    background-color: var(--light-grey);
+    border: 1px solid transparent;
+    border-radius: 0.313rem;
+    transition: 0.3s;
+}
+
+button:hover {
+    border: 1px solid #eee;
+    box-shadow: 0 0 2px 1px rgba(189, 189, 189, 0.5);
 }
