@@ -20,4 +20,12 @@ a {
 
 nav {
   display: flex;
+  justify-content: space-between;
+  height: 3.75rem;
+  padding: 1.25rem 0.625rem;
+}
+
+ul {
+    display: flex;
+    
 }
