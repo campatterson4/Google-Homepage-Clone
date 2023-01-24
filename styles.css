@@ -21,7 +21,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     overflow: hidden;
-    height: 85vh;
+    height: 87vh;
 }
 
 ul {
@@ -131,6 +131,7 @@ li:hover {
 
 form {
     position: relative;
+    margin-top: 1.88rem;
 }
 
 button {
