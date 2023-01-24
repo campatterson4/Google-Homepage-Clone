@@ -171,9 +171,20 @@ footer {
     padding: 0.938rem;
     font-size: .90rem;
 }
+.footer1 > * {
+    flex-basis: 33%;
+}
+
+.right {
+    justify-content: flex-end;
+}
 
 .leaf-icon {
     width: 0.75rem;
+}
+
+.carbon-neutral {
+    text-align: center;
 }
 
 
