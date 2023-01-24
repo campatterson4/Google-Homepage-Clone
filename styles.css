@@ -21,7 +21,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     overflow: hidden;
-    height: 87vh;
+    height: 100vh;
 }
 
 ul {
@@ -156,3 +156,24 @@ button:hover {
     margin-top: 1.875rem;
     width: 21.875rem;
 }
+
+/* ---- FOOTER ---- */
+
+footer {
+    width: 100%;
+    background-color: var(--light-grey);
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+    height: 3.125rem;
+    padding: 0.938rem;
+    font-size: .90rem;
+}
+
+.leaf-icon {
+    width: 0.75rem;
+}
+
+
