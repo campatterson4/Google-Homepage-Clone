@@ -10,6 +10,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: var(--black);
+}
+
+body {
+    font-family: 'Montserrat';
 }
 
 ul {
@@ -31,5 +36,5 @@ nav {
 
 ul {
     display: flex;
-
+    align-items: center;
 }
