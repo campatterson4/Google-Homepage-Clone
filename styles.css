@@ -67,3 +67,17 @@ li:hover {
 .menu-btn {
     width: 0.938rem;
 }
+
+.profile-icon {
+    background-color: var(--blue);
+    border-radius: 50%;
+    margin-top: -.05rem;
+    margin-left: .6rem;
+    height: 2.1rem;
+    cursor: pointer;
+}
+
+.profile-icon a {
+    color: #fff;
+}
+
